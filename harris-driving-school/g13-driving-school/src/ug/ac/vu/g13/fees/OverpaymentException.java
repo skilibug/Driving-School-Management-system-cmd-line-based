@@ -5,7 +5,7 @@ import ug.ac.vu.g13.core.Validate;
 /**
  * Thrown when a payment is larger than the balance still owed on the invoice.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin
  */
 public class OverpaymentException extends Exception {
     public OverpaymentException(Invoice invoice, double amount) {
