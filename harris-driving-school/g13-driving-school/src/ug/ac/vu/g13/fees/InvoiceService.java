@@ -13,7 +13,7 @@ import ug.ac.vu.g13.students.Student;
 /**
  * Manages fee invoices.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin
  */
 public class InvoiceService extends BaseService<Invoice> {
     public static final Comparator<Invoice> BY_BALANCE_DESC = Comparator.comparingDouble(Invoice::getBalance).reversed()
