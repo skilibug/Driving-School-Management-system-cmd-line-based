@@ -9,7 +9,7 @@ import ug.ac.vu.g13.core.Validate;
 /**
  * One payment made towards an invoice.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin
  */
 public class Payment extends BaseRecord {
     public enum Method { CASH, MOBILE_MONEY, BANK }
