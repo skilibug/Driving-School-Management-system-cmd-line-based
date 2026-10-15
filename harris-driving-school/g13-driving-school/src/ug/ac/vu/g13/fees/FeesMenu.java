@@ -16,7 +16,7 @@ import ug.ac.vu.g13.courses.EnrollmentService;
 /**
  * Submenu for the Fees module.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin 
  */
 public class FeesMenu extends AbstractModuleMenu {
     private final InvoiceService invoices;
