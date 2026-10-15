@@ -9,7 +9,7 @@ import ug.ac.vu.g13.core.Fields;
 /**
  * Manages payments and keeps each invoice's paid amount up to date.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin
  */
 public class PaymentService extends BaseService<Payment> {
     public static final Comparator<Payment> BY_DATE = Comparator.comparing(Payment::getPaidOn).thenComparing(Payment::getId);
