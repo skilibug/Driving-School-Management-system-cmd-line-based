@@ -13,7 +13,7 @@ import ug.ac.vu.g13.courses.Enrollment;
  * A fee invoice for one enrolment. Implements the shared Payable interface.
  * Links the Fees module to Courses and Students by object reference.
  *
- * @author Member 6 (Fees module owner)
+ * @author Darwin 
  */
 public class Invoice extends BaseRecord implements Payable {
     private final Enrollment enrollment;
